@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Misturinha</string>
+
+    <string-array name="tipos_de_drogas">
+        <item>Selecione uma opção</item>
+        <item>Álcool</item>
+        <item>Anfetamina</item>
+        <item>Benzodiazepina</item>
+        <item>Cocaína</item>
+        <item>Cogumelo</item>
+        <item>DMT</item>
+        <item>ISRS</item>
+        <item>Ketamina</item>
+        <item>LSD</item>
+        <item>Maconha</item>
+        <item>MDMA</item>
+        <item>Opioides</item>
+
+    </string-array>
+
+    <!-- String para o prompt do Spinner -->
+    <string name="opcao1_prompt">Primeira opção</string>
+    <string name="opcao2_prompt">Segunda opção</string>
+</resources>

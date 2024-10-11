@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/resultadoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Resultado da Mistura"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/resultadoImage"
+        android:layout_width="278dp"
+        android:layout_height="233dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/caveira"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="177dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:text="NOVA MISTURA"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
